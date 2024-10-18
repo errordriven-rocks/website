@@ -17,7 +17,7 @@
           >
             <NuxtImg
               src="/logo.png"
-              class="w-20 hover:scale-150 transition hover:text-primary/0 bg-neutral-900"
+              class="w-40 hover:scale-150 transition hover:text-primary/0 bg-neutral-900"
             />
           </div>
         </a>
@@ -106,11 +106,12 @@
 import { initDrawers } from "flowbite";
 
 const navigation = ref([
-  { name: "Projects", href: "#" },
   { name: "About", href: "#" },
+  { name: "Projects", href: "#" },
   { name: "Team", href: "#" },
-  { name: "Careers", href: "#" },
+  { name: "Podcast", href: "#" },
   { name: "Blog", href: "#" },
+  { name: "Contact", href: "#" },
 ]);
 
 onMounted(() => {
